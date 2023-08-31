@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+h1 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+p {
+    color: #ffffff;
+}
+
+#listaProductos {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: hsl(187, 100%, 50%);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+#listaProductos li {
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#listaProductos img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#listaProductos h2 {
+    margin: 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+#listaProductos p {
+    margin: 0;
+    color: #666;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.gyazo.com/4041582e2a112c18bc6c91d648fa914b.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0; 
+}
+
+
+.titulo-carrito {
+    background-color: black;
+    padding: 5px;
+    border-radius: 0px;
+    color: white;
+    
+}
+
+.productos-carrito {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.total-recuadro {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: 10px; 
+}

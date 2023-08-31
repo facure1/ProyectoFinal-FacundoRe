@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "BOCA JUNIORS 22/23",
+        "precio": 100000
+    },
+    {
+        "nombre": "RIVER PLATE 22/23",
+        "precio": 90000
+    },
+    {
+        "nombre": "INDEPENDIENTE 22/23",
+        "precio": 60000
+    },
+    {
+        "nombre": "RACING CLUB 22/23",
+        "precio": 40000
+    },
+    {
+        "nombre": "SAN LORENZO 22/23",
+        "precio": 35000
+    }
+]

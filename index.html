@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE CORNER STORE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+
+</head>
+<body>
+    <h1>THE CORNER STORE</h1>
+    <p>¡CONSEGUÍ LA CAMISETA DE LOS 5 GRANDES A UN MEJOR PRECIO!</p>
+    <ul id="listaProductos">
+        <li>
+            <img src="https://i.gyazo.com/572aca90c398d3ec5514aafbff2e0195.png" alt="BOCA JUNIORS 22/23">
+            <h2>BOCA JUNIORS 22/23</h2>
+            <p>Precio: $100.000</p>
+            <button class="botonAñadir">AÑADIR</button>
+        </li>
+        <li>
+            <img src="https://i.gyazo.com/b27fdc4baf59dfdfba59e95dda08c508.png" alt="RIVER PLATE 22/23">
+            <h2>RIVER PLATE 22/23</h2>
+            <p>Precio: $90.000</p>
+            <button class="botonAñadir">AÑADIR</button>
+        </li>
+        <li>
+            <img src="https://i.gyazo.com/26bc65648ee180e37ed8e4cf51e013be.png" alt="INDEPENDIENTE 22/23">
+            <h2>INDEPENDIENTE 22/23</h2>
+            <p>Precio: $60.000</p>
+            <button class="botonAñadir">AÑADIR</button>
+        </li>
+        <li>
+            <img src="https://i.gyazo.com/a4a4b16741e787982114c81f30aeb060.png" alt="RACING CLUB 22/23">
+            <h2>RACING CLUB 22/23</h2>
+            <p>Precio: $40.000</p>
+            <button class="botonAñadir">AÑADIR</button>
+        </li>
+        <li>
+            <img src="https://i.gyazo.com/cbff9d48a7e2cc9a0699db5fdc0bbfa8.png" alt="SAN LORENZO 22/23">
+            <h2>SAN LORENZO 22/23</h2>
+            <p>Precio: $35.000</p>
+            <button class="botonAñadir">AÑADIR</button>
+        </li>
+        
+    </ul>
+
+    <div id="carrito" class="carrito-recuadro">
+        <h2 class="titulo-carrito">PRODUCTOS SELECCIONADOS</h2>
+        <ul id="listaCarrito" class="productos-carrito"></ul>
+        <div class="total-recuadro">
+            <p>TOTAL: <span id="total">$0.00</span></p>
+        </div>
+        <button id="vaciarCarrito">ELIMINAR TODO</button>
+        <button id="comprarCarrito">COMPRAR</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+</body>
+</html>
+
+
+
